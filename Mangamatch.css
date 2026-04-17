@@ -1,0 +1,198 @@
+
+body {
+    background-color: #020a0d;
+    background-image: linear-gradient(#91183c, #020a0d);
+    color:#e5f6fb;
+    font-family: Oswald,Roboto,sans-serif;
+} /*layout yeeees comment things so you remember you forgetful lizard*/
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    min-width: auto;
+    background-color: #020a0d;
+    box-shadow: 3px 3px 5px #de8d35;
+}
+header{
+    background-color: #020a0d;
+    box-shadow: 3px 3px 5px #de8d35;
+    background-repeat: no-repeat;
+    min-height: auto;
+    padding: 10px;
+    text-align: center;
+    color:#e5f6fb
+}
+
+.logoback {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("mangamatch-images/TopImage.jpg");
+    background-size: cover;
+}
+.brand-logo {
+
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #020a0d;
+    border: 1px solid #de8d35;
+    box-shadow: 3px 3px 5px #de8d35;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #e5f6fb;
+    text-decoration: none;
+    font-size: medium;
+    font-family: oswald,Roboto,sans-serif;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #de8d35;
+    
+}
+/*Time for Main Character energy*/
+main {
+    padding: 1px 20px 20px 20px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-family: Oswald,Roboto,sans-serif;
+    color: #e5f6fb;
+    font-size: 60px;
+}
+h1 a {
+    color: #e5f6fb;
+    text-decoration: none;
+}
+h2 {
+    font-family: Oswald,Roboto,sans-serif;
+    color: #8ed4ec;
+    padding-left: 20px;
+   
+
+}
+h3 {
+    font-family: Oswald,Roboto,sans-serif;
+    color: #8ed4ec;
+    font-size: 25px;
+}
+/*FIND IMAGE FOR LIST ITEMS*/
+ul {
+    list-style-image: url();
+}
+
+/*okay break time from css orz*/
+#homehero {
+    background-image: url("mangamatch-images/TopImage.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-content {
+    padding: 1px 20px;
+    width: 100%;
+    background-color: rgba(1, 10, 14, 0.856);
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+/*I am going to dream of code. One flex two flex three flex four*/
+
+#abouthero {
+    background-image: url("mangamatch-images/AboutHero.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+#Discoverhero {
+    background-image: url("mangamatch-images/Discoverhero.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+#Mangahero{
+    background-image: url("mangamatch-images/TopImage.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+table{
+width:100%;
+border-collapse: collapse;
+margin-top: 10px;
+}
+
+table, th, td {
+    border: 2px solid #de8d35;
+    box-shadow: 3px 3px 5px #de8d35;
+    padding: 10px;
+    text-align: center;
+    color: #e5f6fb;
+    font-family: Oswald,Roboto,sans-serif;
+}
+#contact {
+    font-size: 90%;
+}
+footer {
+    padding:2em;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Oswald,Roboto,sans-serif;
+}
+
+
+/*format later...it's later*/
+.trending-manga {
+    border: 2px solid #de8d35;
+}
+
+.video {
+    border: 2px solid #de8d35;
+}
+.LifeVideo {
+    width:100%;
+}
+
+.MangaMatch-Benefits {
+    color: #8ed4ec;
+    font-weight: bold;
+}
+
+.read-manga-layout {
+    display: flex;
+    align-items: flex-start;
+}
+.read-manga-step {
+    flex:50%;
+}
+.read-manga-image {
+    flex:1;
+}
+@media (max-width: 600px)
+{
+    .read-manga-image {
+        flex-direction: column;
+    }
+    
+    }

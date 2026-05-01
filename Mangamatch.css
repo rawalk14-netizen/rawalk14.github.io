@@ -19,7 +19,7 @@ header{
     min-height: auto;
     padding: 10px;
     text-align: center;
-    color:#e5f6fb
+    color:#e5f6fb;
 }
 
 .logoback {
@@ -106,6 +106,7 @@ ul {
     display: flex;
     align-items: flex-end;
 }
+/*REMEMBER TO VALIDATE YOUR CODE OR YOU WILL BE SORRY >:'(*/
 .hero-content {
     padding: 1px 20px;
     width: 100%;
@@ -162,7 +163,7 @@ footer {
 }
 
 
-/*format later...it's later*/
+/*format later...*/
 .trending-manga {
     border: 2px solid #de8d35;
 }
@@ -187,12 +188,17 @@ footer {
     flex:50%;
 }
 .read-manga-image {
-    flex:1;
+    flex:100%;
+}
+.two-column {
+    display: flex;
+    align-items: flex-start;
 }
 @media (max-width: 600px)
 {
     .read-manga-image {
         flex-direction: column;
+        text-align: center;
     }
     
     }
